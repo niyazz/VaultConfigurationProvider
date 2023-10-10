@@ -22,7 +22,7 @@ This configuration provider uses authentication via the `LDAP` protocol using a 
 It is recommended to use it only for local development, when secrets are not stored in the standard ```appsettings.json```.
 
 ---
-## Creating a user secrets file via the terminal
+## Create User Secrets file in the terminal
 
 Login and password are suggested to be kept in user secrets (Microsoft User Secret Manager Tool) due to the fact that this file 
 is stored only on the user's device and can be changed using ```dotnet tools```.
