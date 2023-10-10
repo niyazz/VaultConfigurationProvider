@@ -1,0 +1,33 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{A1BF69C3-9A63-4B45-92C7-23C077514453}"
+	ProjectSection(SolutionItems) = preProject
+		Directory.Build.props = Directory.Build.props
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "tests", "tests", "{BFB1AC63-74E4-4CEE-AD16-625053DE9891}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VaultConfigurationProvider", "VaultConfigurationProvider\VaultConfigurationProvider.csproj", "{752091CC-BFC8-45A8-BAAE-D84262D44673}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VaultConfigurationProvider.Tests", "VaultConfigurationProvider.Tests\VaultConfigurationProvider.Tests.csproj", "{6AB9F594-9F79-47CE-94C9-C5310943BAF3}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{752091CC-BFC8-45A8-BAAE-D84262D44673}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{752091CC-BFC8-45A8-BAAE-D84262D44673}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{752091CC-BFC8-45A8-BAAE-D84262D44673}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{752091CC-BFC8-45A8-BAAE-D84262D44673}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6AB9F594-9F79-47CE-94C9-C5310943BAF3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6AB9F594-9F79-47CE-94C9-C5310943BAF3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6AB9F594-9F79-47CE-94C9-C5310943BAF3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6AB9F594-9F79-47CE-94C9-C5310943BAF3}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{752091CC-BFC8-45A8-BAAE-D84262D44673} = {A1BF69C3-9A63-4B45-92C7-23C077514453}
+		{6AB9F594-9F79-47CE-94C9-C5310943BAF3} = {BFB1AC63-74E4-4CEE-AD16-625053DE9891}
+	EndGlobalSection
+EndGlobal
